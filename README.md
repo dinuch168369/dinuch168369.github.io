@@ -1,1 +1,1 @@
-# dinuch168369.github.io
+this is a small project with a small team 
