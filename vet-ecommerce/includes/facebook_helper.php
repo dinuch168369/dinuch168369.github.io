@@ -14,8 +14,14 @@ function getLoginUrl() {
     $fb = getFacebookClient();
     $helper = $fb->getRedirectLoginHelper();
     $permissions = [
-        'email', 'public_profile','pages_show_list'
-    ];///, 'pages_show_list', 'pages_read_engagement', 'pages_manage_metadata', 'pages_read_user_content'
+        'email',
+        'public_profile',
+        // 'pages_show_list',
+        // 'pages_read_engagement',
+        // 'pages_manage_metadata',
+        // 'pages_read_user_content'
+    ];
+    
     $config = require __DIR__ . '/../config/config.php';
     return $helper->getLoginUrl($config['callback_url'], $permissions);
 }
