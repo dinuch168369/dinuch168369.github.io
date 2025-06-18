@@ -1,6 +1,6 @@
 link: https://developers.facebook.com/apps/ 
-Create an app -> App name -> Other -> Select an app type
-    noted: for user facebook account Select Consumer / for facebook page Select Business 
+Create an app -> App name -> choose Other -> Select an app type
+    noted: for user facebook account select: Consumer / for facebook page select: Business 
 *** How the System Works ***
 #1 Configuration
     -config/config.php: Holds your app credentials, Facebook app settings, and database configuration.
